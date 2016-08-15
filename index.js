@@ -1,6 +1,5 @@
 var S3FS = require('s3fs');
 var crypto = require('crypto');
-var colors=require('colors')
 var gm = require('gm');
 
 function S3Storage(opts) {
